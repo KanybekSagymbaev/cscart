@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>NK</id>
+    <version>1.0</version>
+    <priority>500</priority>
+    <position>110</position>
+    <status>active</status>
+    <compatibility>
+        <conflicts>email_marketing</conflicts>
+    </compatibility>
+    <default_language>ru</default_language>
+</addon>
