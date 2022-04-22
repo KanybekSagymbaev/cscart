@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2022-04-21 08:38:26
+<?php /* Smarty version Smarty-3.1.21, created on 2022-04-22 07:14:41
          compiled from "W:\domains\ncode.kc\design\backend\templates\addons\help_center\hooks\index\content_top.pre.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:17899866876260edd2a3c659-48600827%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:147970000062622bb107c462-39583651%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '17899866876260edd2a3c659-48600827',
+  'nocache_hash' => '147970000062622bb107c462-39583651',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_6260edd2a89811_62460367',
+  'unifunc' => 'content_62622bb10cefc4_52455800',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_6260edd2a89811_62460367')) {function content_6260edd2a89811_62460367($_smarty_tpl) {?><?php if (!is_callable('smarty_function_include_ext')) include 'W:/domains/ncode.kc/app/functions/smarty_plugins\\function.include_ext.php';
+<?php if ($_valid && !is_callable('content_62622bb10cefc4_52455800')) {function content_62622bb10cefc4_52455800($_smarty_tpl) {?><?php if (!is_callable('smarty_function_include_ext')) include 'W:/domains/ncode.kc/app/functions/smarty_plugins\\function.include_ext.php';
 ?><?php
 \Tygh\Languages\Helper::preloadLangVars(array('help_center.help'));
 ?>

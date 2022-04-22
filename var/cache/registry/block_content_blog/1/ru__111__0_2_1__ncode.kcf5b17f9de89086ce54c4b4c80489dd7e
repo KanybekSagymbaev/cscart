@@ -1,0 +1,224 @@
+a:2:{s:4:"data";a:2:{s:10:"javascript";s:1805:"<script>
+(function(_, $) {
+    $.ceEvent('on', 'ce.commoninit', function(context) {
+        var elm = context.find('#scroll_list_65');
+
+        var item = 1,
+            // default setting of carousel
+            itemsDesktop = 3,
+            itemsDesktopSmall = 3;
+            itemsTablet = 2;
+
+        if (item > 3) {
+            itemsDesktop = item;
+            itemsDesktopSmall = item - 1;
+            itemsTablet = item - 2;
+        } else if (item == 1) {
+            itemsDesktop = itemsDesktopSmall = itemsTablet = 1;
+        } else {
+            itemsDesktop = item;
+            itemsDesktopSmall = itemsTablet = item - 1;
+        }
+
+                function outsideNav () {
+            if(this.options.items >= this.itemsAmount){
+                $("#owl_outside_nav_65").hide();
+            } else {
+                $("#owl_outside_nav_65").show();
+            }
+        }
+        
+        if (elm.length) {
+            elm.owlCarousel({
+                direction: 'ltr',
+                items: item,
+                itemsDesktop: [1199, itemsDesktop],
+                itemsDesktopSmall: [979, itemsDesktopSmall],
+                itemsTablet: [768, itemsTablet],
+                itemsMobile: [479, 1],
+                                                autoPlay: false,
+                                slideSpeed: 400,
+                stopOnHover: true,
+                                pagination: false,
+                            afterInit: outsideNav,
+                afterUpdate : outsideNav
+            });
+
+              $('#owl_prev_65000').click(function(){
+                elm.trigger('owl.prev');
+              });
+              $('#owl_next_65000').click(function(){
+                elm.trigger('owl.next');
+              });
+
+            
+        }
+    });
+}(Tygh, Tygh.$));
+</script>";s:7:"content";s:7109:"        <div class="ty-mainbox-simple-container clearfix">
+                    <h2 class="ty-mainbox-simple-title">
+                
+                                    Блог
+                                
+
+            </h2>
+                <div class="ty-mainbox-simple-body">
+
+
+    <div class="owl-theme ty-owl-controls">
+        <div class="owl-controls clickable owl-controls-outside" id="owl_outside_nav_65">
+            <div class="owl-buttons">
+                <div id="owl_prev_65000" class="owl-prev"><span 
+        class="ty-icon ty-icon-left-open-thin"
+                
+            ></span></div>
+                <div id="owl_next_65000" class="owl-next"><span 
+        class="ty-icon ty-icon-right-open-thin"
+                
+            ></span></div>
+            </div>
+        </div>
+    </div>
+
+<div class="ty-mb-l">
+    <div class="ty-blog-recent-posts-scroller">
+        <div id="scroll_list_65" class="owl-carousel ty-scroller-list">
+
+                    <div class="ty-blog-recent-posts-scroller__item">
+
+                <div class="ty-blog-recent-posts-scroller__img-block">
+                    <a href="http://ncode.kc/blog/my-zavezli-novye-igry-dlya-nintendo-wii/">
+                        <span class="ty-no-image" style="height: px; width: px; "><span 
+        class="ty-icon ty-icon-image ty-no-image__icon"
+                            title="Нет изображения"
+        
+            ></span></span>
+
+                    </a>
+                </div>
+
+                <a href="http://ncode.kc/blog/my-zavezli-novye-igry-dlya-nintendo-wii/">Мы завезли новые игры для Nintendo Wii!</a>
+
+                <div class="ty-blog__date">04/20/2022</div>
+
+            </div>
+                    <div class="ty-blog-recent-posts-scroller__item">
+
+                <div class="ty-blog-recent-posts-scroller__img-block">
+                    <a href="http://ncode.kc/blog/tolko-v-nashem-magazine-znamenitye-amerikanskie-palatki-weathermaster/">
+                        <span class="ty-no-image" style="height: px; width: px; "><span 
+        class="ty-icon ty-icon-image ty-no-image__icon"
+                            title="Нет изображения"
+        
+            ></span></span>
+
+                    </a>
+                </div>
+
+                <a href="http://ncode.kc/blog/tolko-v-nashem-magazine-znamenitye-amerikanskie-palatki-weathermaster/">​Только в нашем магазине! Знаменитые американские палатки WeatherMaster!</a>
+
+                <div class="ty-blog__date">04/18/2022</div>
+
+            </div>
+                    <div class="ty-blog-recent-posts-scroller__item">
+
+                <div class="ty-blog-recent-posts-scroller__img-block">
+                    <a href="http://ncode.kc/blog/ischete-knopochnuyu-nokia-i-nigde-ne-mozhete-nayti-a-u-nas-oni-esche-est/">
+                        <span class="ty-no-image" style="height: px; width: px; "><span 
+        class="ty-icon ty-icon-image ty-no-image__icon"
+                            title="Нет изображения"
+        
+            ></span></span>
+
+                    </a>
+                </div>
+
+                <a href="http://ncode.kc/blog/ischete-knopochnuyu-nokia-i-nigde-ne-mozhete-nayti-a-u-nas-oni-esche-est/">Ищете кнопочную Nokia и нигде не можете найти? А у нас они еще есть!</a>
+
+                <div class="ty-blog__date">04/17/2022</div>
+
+            </div>
+                    <div class="ty-blog-recent-posts-scroller__item">
+
+                <div class="ty-blog-recent-posts-scroller__img-block">
+                    <a href="http://ncode.kc/blog/priehali-luchshie-proizvedeniya-legendarnogo-blyuzmena-b.b.king./">
+                        <span class="ty-no-image" style="height: px; width: px; "><span 
+        class="ty-icon ty-icon-image ty-no-image__icon"
+                            title="Нет изображения"
+        
+            ></span></span>
+
+                    </a>
+                </div>
+
+                <a href="http://ncode.kc/blog/priehali-luchshie-proizvedeniya-legendarnogo-blyuzmena-b.b.king./">Приехали лучшие произведения легендарного блюзмена B.B.King.</a>
+
+                <div class="ty-blog__date">04/17/2022</div>
+
+            </div>
+                    <div class="ty-blog-recent-posts-scroller__item">
+
+                <div class="ty-blog-recent-posts-scroller__img-block">
+                    <a href="http://ncode.kc/blog/my-zavezli-nastoyaschuyu-amerikanskuyu-klassiku-kruizery-drifter./">
+                        <span class="ty-no-image" style="height: px; width: px; "><span 
+        class="ty-icon ty-icon-image ty-no-image__icon"
+                            title="Нет изображения"
+        
+            ></span></span>
+
+                    </a>
+                </div>
+
+                <a href="http://ncode.kc/blog/my-zavezli-nastoyaschuyu-amerikanskuyu-klassiku-kruizery-drifter./">Мы завезли настоящую американскую классику! Круизеры Drifter.</a>
+
+                <div class="ty-blog__date">04/16/2022</div>
+
+            </div>
+                    <div class="ty-blog-recent-posts-scroller__item">
+
+                <div class="ty-blog-recent-posts-scroller__img-block">
+                    <a href="http://ncode.kc/blog/opasaetes-zombi-i-uzhe-kopite-zapasy-na-sluchay-armagedona/">
+                        <span class="ty-no-image" style="height: px; width: px; "><span 
+        class="ty-icon ty-icon-image ty-no-image__icon"
+                            title="Нет изображения"
+        
+            ></span></span>
+
+                    </a>
+                </div>
+
+                <a href="http://ncode.kc/blog/opasaetes-zombi-i-uzhe-kopite-zapasy-na-sluchay-armagedona/">Опасаетесь зомби и уже копите запасы на случай армагедона?</a>
+
+                <div class="ty-blog__date">04/16/2022</div>
+
+            </div>
+                    <div class="ty-blog-recent-posts-scroller__item">
+
+                <div class="ty-blog-recent-posts-scroller__img-block">
+                    <a href="http://ncode.kc/blog/dlya-lyubiteley-kachestvennogo-zvuka-my-zavezli-otlichnye-dinamiki-pioneer/">
+                        <span class="ty-no-image" style="height: px; width: px; "><span 
+        class="ty-icon ty-icon-image ty-no-image__icon"
+                            title="Нет изображения"
+        
+            ></span></span>
+
+                    </a>
+                </div>
+
+                <a href="http://ncode.kc/blog/dlya-lyubiteley-kachestvennogo-zvuka-my-zavezli-otlichnye-dinamiki-pioneer/">Для любителей качественного звука, мы завезли отличные динамики Pioneer!</a>
+
+                <div class="ty-blog__date">04/15/2022</div>
+
+            </div>
+        
+        </div>
+    </div>
+</div>
+
+<!-- Inline script moved to the bottom of the page -->
+
+
+</div>
+    </div>
+
+";}s:6:"expiry";i:0;}

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2022-04-21 08:38:18
+<?php /* Smarty version Smarty-3.1.21, created on 2022-04-22 07:14:34
          compiled from "W:\domains\ncode.kc\design\backend\templates\common\styles.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:11634945426260edca58f370-04443401%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:107096823962622baa5ed950-35912912%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '11634945426260edca58f370-04443401',
+  'nocache_hash' => '107096823962622baa5ed950-35912912',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_6260edca64be55_89084059',
+  'unifunc' => 'content_62622baa631da6_71434730',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_6260edca64be55_89084059')) {function content_6260edca64be55_89084059($_smarty_tpl) {?><?php if (!is_callable('smarty_block_styles')) include 'W:/domains/ncode.kc/app/functions/smarty_plugins\\block.styles.php';
+<?php if ($_valid && !is_callable('content_62622baa631da6_71434730')) {function content_62622baa631da6_71434730($_smarty_tpl) {?><?php if (!is_callable('smarty_block_styles')) include 'W:/domains/ncode.kc/app/functions/smarty_plugins\\block.styles.php';
 if (!is_callable('smarty_function_style')) include 'W:/domains/ncode.kc/app/functions/smarty_plugins\\function.style.php';
 if (!is_callable('smarty_block_hook')) include 'W:/domains/ncode.kc/app/functions/smarty_plugins\\block.hook.php';
 ?><?php $_smarty_tpl->smarty->_tag_stack[] = array('styles', array()); $_block_repeat=true; echo smarty_block_styles(array(), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>

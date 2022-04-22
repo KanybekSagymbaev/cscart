@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2022-04-21 08:38:34
+<?php /* Smarty version Smarty-3.1.21, created on 2022-04-22 07:19:51
          compiled from "W:\domains\ncode.kc\design\backend\templates\buttons\helpdesk.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:16042780336260eddaf384e9-63409333%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:7763688162622ce7d8e414-61265184%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '16042780336260eddaf384e9-63409333',
+  'nocache_hash' => '7763688162622ce7d8e414-61265184',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_6260eddb018b85_76039622',
+  'unifunc' => 'content_62622ce7dbcc75_36820696',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_6260eddb018b85_76039622')) {function content_6260eddb018b85_76039622($_smarty_tpl) {?><?php
+<?php if ($_valid && !is_callable('content_62622ce7dbcc75_36820696')) {function content_62622ce7dbcc75_36820696($_smarty_tpl) {?><?php
 \Tygh\Languages\Helper::preloadLangVars(array('helpdesk_account.sign_in'));
 ?>
 <?php $_smarty_tpl->tpl_vars['btn_text'] = new Smarty_variable((($tmp = @$_smarty_tpl->tpl_vars['btn_text']->value)===null||$tmp==='' ? $_smarty_tpl->__("helpdesk_account.sign_in") : $tmp), null, 0);?>

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2022-04-21 08:38:26
+<?php /* Smarty version Smarty-3.1.21, created on 2022-04-22 07:14:41
          compiled from "W:\domains\ncode.kc\design\backend\templates\menu.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:9522954346260edd2ba2e80-17333961%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:165896395062622bb11c28a0-86862837%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '9522954346260edd2ba2e80-17333961',
+  'nocache_hash' => '165896395062622bb11c28a0-86862837',
   'function' => 
   array (
     'menu_attrs' => 
@@ -71,9 +71,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => 0,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_6260edd2de85e4_24057589',
+  'unifunc' => 'content_62622bb13f8100_61811336',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_6260edd2de85e4_24057589')) {function content_6260edd2de85e4_24057589($_smarty_tpl) {?><?php if (!is_callable('smarty_block_hook')) include 'W:/domains/ncode.kc/app/functions/smarty_plugins\\block.hook.php';
+<?php if ($_valid && !is_callable('content_62622bb13f8100_61811336')) {function content_62622bb13f8100_61811336($_smarty_tpl) {?><?php if (!is_callable('smarty_block_hook')) include 'W:/domains/ncode.kc/app/functions/smarty_plugins\\block.hook.php';
 if (!is_callable('smarty_modifier_sizeof')) include 'W:/domains/ncode.kc/app/functions/smarty_plugins\\modifier.sizeof.php';
 if (!is_callable('smarty_function_include_ext')) include 'W:/domains/ncode.kc/app/functions/smarty_plugins\\function.include_ext.php';
 if (!is_callable('smarty_modifier_enum')) include 'W:/domains/ncode.kc/app/functions/smarty_plugins\\modifier.enum.php';
@@ -225,11 +225,11 @@ if (!empty($_capture_buffer)) {
                             <?php if ($_smarty_tpl->tpl_vars['auth']->value['user_type']==smarty_modifier_enum("UserTypes::ADMIN")) {?>
                                 <?php ob_start();
 if ($_smarty_tpl->tpl_vars['storefront_id']->value) {?><?php echo "&storefront_id=";?><?php echo (string)$_smarty_tpl->tpl_vars['storefront_id']->value;?><?php }
-$_tmp14=ob_get_clean();?><?php $_smarty_tpl->tpl_vars['storefront_url'] = new Smarty_variable(fn_url("profiles.act_as_user?user_id=".((string)$_smarty_tpl->tpl_vars['auth']->value['user_id'])."&area=C".$_tmp14), null, 0);?>
+$_tmp17=ob_get_clean();?><?php $_smarty_tpl->tpl_vars['storefront_url'] = new Smarty_variable(fn_url("profiles.act_as_user?user_id=".((string)$_smarty_tpl->tpl_vars['auth']->value['user_id'])."&area=C".$_tmp17), null, 0);?>
                             <?php } else { ?>
                                 <?php ob_start();
 if ($_smarty_tpl->tpl_vars['storefront_id']->value) {?><?php echo "&storefront_id=";?><?php echo (string)$_smarty_tpl->tpl_vars['storefront_id']->value;?><?php }
-$_tmp15=ob_get_clean();?><?php $_smarty_tpl->tpl_vars['storefront_url'] = new Smarty_variable($_smarty_tpl->tpl_vars['runtime']->value['company_id'] ? "companies.products?company_id=".((string)$_smarty_tpl->tpl_vars['runtime']->value['company_id']).$_tmp15 : '', null, 0);?>
+$_tmp18=ob_get_clean();?><?php $_smarty_tpl->tpl_vars['storefront_url'] = new Smarty_variable($_smarty_tpl->tpl_vars['runtime']->value['company_id'] ? "companies.products?company_id=".((string)$_smarty_tpl->tpl_vars['runtime']->value['company_id']).$_tmp18 : '', null, 0);?>
                                 <?php $_smarty_tpl->tpl_vars['storefront_url'] = new Smarty_variable(fn_url($_smarty_tpl->tpl_vars['storefront_url']->value,"C"), null, 0);?>
                                 <?php if ($_smarty_tpl->tpl_vars['runtime']->value['storefront_access_key']) {?>
                                     <?php $_smarty_tpl->tpl_vars['storefront_url'] = new Smarty_variable(fn_link_attach($_smarty_tpl->tpl_vars['storefront_url']->value,"store_access_key=".((string)$_smarty_tpl->tpl_vars['runtime']->value['storefront_access_key'])), null, 0);?>

@@ -1,0 +1,1035 @@
+a:2:{s:4:"data";a:2:{s:10:"javascript";s:2186:"<script>
+(function(_, $) {
+    $.ceEvent('on', 'ce.commoninit', function(context) {
+        var elm = context.find('#scroll_list_62_62622eba2edf8');
+
+        $('.ty-float-left:contains(.ty-scroller-list),.ty-float-right:contains(.ty-scroller-list)').css('width', '100%');
+
+        var item = 4,
+            // default setting of carousel
+            itemsDesktop = 4,
+            itemsDesktopSmall = 3;
+            itemsTablet = 2;
+
+        if (item > 3) {
+            itemsDesktop = item;
+            itemsDesktopSmall = item - 1;
+            itemsTablet = item - 2;
+        } else if (item == 1) {
+            itemsDesktop = itemsDesktopSmall = itemsTablet = 1;
+        } else {
+            itemsDesktop = item;
+            itemsDesktopSmall = itemsTablet = item - 1;
+        }
+
+        var desktop = [1199, itemsDesktop],
+            desktopSmall = [979, itemsDesktopSmall],
+            tablet = [768, itemsTablet],
+            mobile = [479, 1];
+
+                function outsideNav () {
+            if(this.options.items >= this.itemsAmount){
+                $("#owl_outside_nav_62_62622eba2edf8").hide();
+            } else {
+                $("#owl_outside_nav_62_62622eba2edf8").show();
+            }
+        }
+        
+        if (elm.length) {
+            elm.owlCarousel({
+                direction: 'ltr',
+                items: item,
+                itemsDesktop: desktop,
+                itemsDesktopSmall: desktopSmall,
+                itemsTablet: tablet,
+                itemsMobile: mobile,
+                                scrollPerPage: true,
+                                                autoPlay: false,
+                                lazyLoad: true,
+                slideSpeed: 400,
+                stopOnHover: true,
+                                pagination: false,
+                            afterInit: outsideNav,
+                afterUpdate : outsideNav
+            });
+
+              $('#owl_prev_62000').click(function(){
+                elm.trigger('owl.prev');
+              });
+              $('#owl_next_62000').click(function(){
+                elm.trigger('owl.next');
+              });
+
+            
+        }
+    });
+}(Tygh, Tygh.$));
+</script>";s:7:"content";s:26117:"        <div class="ty-mainbox-simple-container clearfix homepage-hotdeals">
+                    <h2 class="ty-mainbox-simple-title">
+                
+                                    Горячие предложения
+                                
+
+            </h2>
+                <div class="ty-mainbox-simple-body">
+
+                        
+
+
+        
+    <div class="owl-theme ty-owl-controls">
+        <div class="owl-controls clickable owl-controls-outside"  id="owl_outside_nav_62_62622eba2edf8">
+            <div class="owl-buttons">
+                <div id="owl_prev_62000" class="owl-prev"><span 
+        class="ty-icon ty-icon-left-open-thin"
+                
+            ></span></div>
+                <div id="owl_next_62000" class="owl-next"><span 
+        class="ty-icon ty-icon-right-open-thin"
+                
+            ></span></div>
+            </div>
+        </div>
+    </div>
+
+<div id="scroll_list_62_62622eba2edf8" class="owl-carousel ty-scroller-list ty-scroller"
+    data-ca-scroller-item="4"
+    data-ca-scroller-item-desktop="4"
+    data-ca-scroller-item-desktop-small="3"
+    data-ca-scroller-item-tablet="2"
+    data-ca-scroller-item-mobile="1"
+>
+            
+        <div class="ty-scroller-list__item ty-scroller__item">
+            
+                        <div class="ty-scroller-list__img-block">
+                
+                <a href="http://ncode.kc/odezhda/muzhskaya-odezhda/futbolka-cvet-belyy/">                <img class="ty-pict   lazyOwl  cm-image" alt="" title="" srcset="http://ncode.kc/images/thumbnails/320/320/detailed/1/t-6.jpg 2x" width="160" height="160" data-src="http://ncode.kc/images/thumbnails/160/160/detailed/1/t-6.jpg" />
+
+</a>
+                            </div>
+            <div class="ty-scroller-list__description">
+                            
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="ty-simple-list clearfix">
+                <form action="http://ncode.kc/" method="post" name="product_form_62000scr_62_62622eba2edf8000278" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php?s_layout=4" />
+<input type="hidden" name="product_data[scr_62_62622eba2edf8000278][product_id]" value="278" />
+
+            
+                                            
+                    <div class="ty-product-labels ty-product-labels--top-right   cm-reload-62000scr_62_62622eba2edf8000278" id="product_labels_update_62000scr_62_62622eba2edf8000278">
+                            
+                                                                            
+                    
+    <div  class="ty-product-labels__item   ty-product-labels__item--discount">
+        <div class="ty-product-labels__content">Скидка 60%</div>
+    </div>
+
+                        
+
+        
+            <!--product_labels_update_62000scr_62_62622eba2edf8000278--></div>
+            
+
+            <bdi>
+            <a href="http://ncode.kc/odezhda/muzhskaya-odezhda/futbolka-cvet-belyy/" class="product-title" title="Футболка, Цвет: Белый" >Футболка, Цвет: Белый</a>    
+
+</bdi>
+                
+                
+
+    
+
+
+
+            
+
+                                    
+
+
+
+
+            
+                            
+            
+            
+                            
+                        
+                            
+            
+
+
+
+                            
+
+                                        <div class="ty-simple-list__buttons">
+                                        <div class="cm-reload-62000scr_62_62622eba2edf8000278 " id="add_to_cart_update_62000scr_62_62622eba2edf8000278">
+<input type="hidden" name="appearance[show_add_to_cart]" value="1" />
+<input type="hidden" name="appearance[show_list_buttons]" value="" />
+<input type="hidden" name="appearance[but_role]" value="action" />
+<input type="hidden" name="appearance[quick_view]" value="" />
+
+
+    
+            
+ 
+
+    <a href="http://ncode.kc/odezhda/muzhskaya-odezhda/futbolka-cvet-belyy/"  class="ty-btn ty-btn__primary ty-btn__big " >Выберите вариацию</a>
+
+    
+    
+                
+                            
+
+    
+    
+
+    <a id="opener_buy_now_with_one_click_62000278"
+        class="cm-dialog-opener cm-dialog-auto-size ty-btn ty-btn__text ty-cr-product-button cm-dialog-destroy-on-close"
+        href="http://ncode.kc/index.php?dispatch=call_requests.request&amp;product_id=278&amp;obj_prefix=62000"         data-ca-target-id="content_buy_now_with_one_click_62000278"
+                data-ca-dialog-title="Горячие предложения"        data-ca-product-id="278" data-ca-dialog-purpose="call_request"
+        rel="nofollow"
+    >
+                <span >Купить в один клик</span>
+            </a>
+
+
+<div class="hidden" id="content_buy_now_with_one_click_62000278" title="Купить в один клик">
+    
+</div>
+
+                    
+
+    
+
+
+<!--add_to_cart_update_62000scr_62_62622eba2edf8000278--></div>
+
+
+                                        
+                </div>
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="8b1b6c5dbf93cf3c74631b02358e5749" /></form>
+
+    </div>
+
+            </div>
+            
+
+        </div>
+        
+
+            
+        <div class="ty-scroller-list__item ty-scroller__item">
+            
+                        <div class="ty-scroller-list__img-block">
+                
+                <a href="http://ncode.kc/odezhda/muzhskaya-odezhda/futbolka-cvet-chernyy/">                <img class="ty-pict   lazyOwl  cm-image" alt="" title="" srcset="http://ncode.kc/images/thumbnails/320/320/detailed/1/t-4.jpg 2x" width="160" height="160" data-src="http://ncode.kc/images/thumbnails/160/160/detailed/1/t-4.jpg" />
+
+</a>
+                            </div>
+            <div class="ty-scroller-list__description">
+                            
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="ty-simple-list clearfix">
+                <form action="http://ncode.kc/" method="post" name="product_form_62000scr_62_62622eba2edf8000280" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php?s_layout=4" />
+<input type="hidden" name="product_data[scr_62_62622eba2edf8000280][product_id]" value="280" />
+
+            
+                                            
+                    <div class="ty-product-labels ty-product-labels--top-right   cm-reload-62000scr_62_62622eba2edf8000280" id="product_labels_update_62000scr_62_62622eba2edf8000280">
+                            
+                                                                            
+                    
+    <div  class="ty-product-labels__item   ty-product-labels__item--discount">
+        <div class="ty-product-labels__content">Скидка 28%</div>
+    </div>
+
+                        
+
+        
+            <!--product_labels_update_62000scr_62_62622eba2edf8000280--></div>
+            
+
+            <bdi>
+            <a href="http://ncode.kc/odezhda/muzhskaya-odezhda/futbolka-cvet-chernyy/" class="product-title" title="Футболка, Цвет: Черный" >Футболка, Цвет: Черный</a>    
+
+</bdi>
+                
+                
+
+    
+
+
+
+            
+
+                                    
+
+
+
+
+            
+                            
+            
+            
+                            
+                        
+                            
+            
+
+
+
+                            
+
+                                        <div class="ty-simple-list__buttons">
+                                        <div class="cm-reload-62000scr_62_62622eba2edf8000280 " id="add_to_cart_update_62000scr_62_62622eba2edf8000280">
+<input type="hidden" name="appearance[show_add_to_cart]" value="1" />
+<input type="hidden" name="appearance[show_list_buttons]" value="" />
+<input type="hidden" name="appearance[but_role]" value="action" />
+<input type="hidden" name="appearance[quick_view]" value="" />
+
+
+    
+            
+ 
+
+    <a href="http://ncode.kc/odezhda/muzhskaya-odezhda/futbolka-cvet-chernyy/"  class="ty-btn ty-btn__primary ty-btn__big " >Выберите вариацию</a>
+
+    
+    
+                
+                            
+
+    
+    
+
+    <a id="opener_buy_now_with_one_click_62000280"
+        class="cm-dialog-opener cm-dialog-auto-size ty-btn ty-btn__text ty-cr-product-button cm-dialog-destroy-on-close"
+        href="http://ncode.kc/index.php?dispatch=call_requests.request&amp;product_id=280&amp;obj_prefix=62000"         data-ca-target-id="content_buy_now_with_one_click_62000280"
+                data-ca-dialog-title="Горячие предложения"        data-ca-product-id="280" data-ca-dialog-purpose="call_request"
+        rel="nofollow"
+    >
+                <span >Купить в один клик</span>
+            </a>
+
+
+<div class="hidden" id="content_buy_now_with_one_click_62000280" title="Купить в один клик">
+    
+</div>
+
+                    
+
+    
+
+
+<!--add_to_cart_update_62000scr_62_62622eba2edf8000280--></div>
+
+
+                                        
+                </div>
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="8b1b6c5dbf93cf3c74631b02358e5749" /></form>
+
+    </div>
+
+            </div>
+            
+
+        </div>
+        
+
+            
+        <div class="ty-scroller-list__item ty-scroller__item">
+            
+                        <div class="ty-scroller-list__img-block">
+                
+                <a href="http://ncode.kc/odezhda/muzhskaya-odezhda/futbolka-cvet-siniy/">                <img class="ty-pict   lazyOwl  cm-image" alt="" title="" srcset="http://ncode.kc/images/thumbnails/320/320/detailed/1/t-7.jpg 2x" width="160" height="160" data-src="http://ncode.kc/images/thumbnails/160/160/detailed/1/t-7.jpg" />
+
+</a>
+                            </div>
+            <div class="ty-scroller-list__description">
+                            
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="ty-simple-list clearfix">
+                <form action="http://ncode.kc/" method="post" name="product_form_62000scr_62_62622eba2edf8000282" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php?s_layout=4" />
+<input type="hidden" name="product_data[scr_62_62622eba2edf8000282][product_id]" value="282" />
+
+            
+                                            
+                    <div class="ty-product-labels ty-product-labels--top-right   cm-reload-62000scr_62_62622eba2edf8000282" id="product_labels_update_62000scr_62_62622eba2edf8000282">
+                            
+                                                                            
+                    
+    <div  class="ty-product-labels__item   ty-product-labels__item--discount">
+        <div class="ty-product-labels__content">Скидка 63%</div>
+    </div>
+
+                        
+
+        
+            <!--product_labels_update_62000scr_62_62622eba2edf8000282--></div>
+            
+
+            <bdi>
+            <a href="http://ncode.kc/odezhda/muzhskaya-odezhda/futbolka-cvet-siniy/" class="product-title" title="Футболка, Цвет: Синий" >Футболка, Цвет: Синий</a>    
+
+</bdi>
+                
+                
+
+    
+
+
+
+            
+
+                                    
+
+
+
+
+            
+                            
+            
+            
+                            
+                        
+                            
+            
+
+
+
+                            
+
+                                        <div class="ty-simple-list__buttons">
+                                        <div class="cm-reload-62000scr_62_62622eba2edf8000282 " id="add_to_cart_update_62000scr_62_62622eba2edf8000282">
+<input type="hidden" name="appearance[show_add_to_cart]" value="1" />
+<input type="hidden" name="appearance[show_list_buttons]" value="" />
+<input type="hidden" name="appearance[but_role]" value="action" />
+<input type="hidden" name="appearance[quick_view]" value="" />
+
+
+    
+            
+ 
+
+    <a href="http://ncode.kc/odezhda/muzhskaya-odezhda/futbolka-cvet-siniy/"  class="ty-btn ty-btn__primary ty-btn__big " >Выберите вариацию</a>
+
+    
+    
+                
+                            
+
+    
+    
+
+    <a id="opener_buy_now_with_one_click_62000282"
+        class="cm-dialog-opener cm-dialog-auto-size ty-btn ty-btn__text ty-cr-product-button cm-dialog-destroy-on-close"
+        href="http://ncode.kc/index.php?dispatch=call_requests.request&amp;product_id=282&amp;obj_prefix=62000"         data-ca-target-id="content_buy_now_with_one_click_62000282"
+                data-ca-dialog-title="Горячие предложения"        data-ca-product-id="282" data-ca-dialog-purpose="call_request"
+        rel="nofollow"
+    >
+                <span >Купить в один клик</span>
+            </a>
+
+
+<div class="hidden" id="content_buy_now_with_one_click_62000282" title="Купить в один клик">
+    
+</div>
+
+                    
+
+    
+
+
+<!--add_to_cart_update_62000scr_62_62622eba2edf8000282--></div>
+
+
+                                        
+                </div>
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="8b1b6c5dbf93cf3c74631b02358e5749" /></form>
+
+    </div>
+
+            </div>
+            
+
+        </div>
+        
+
+            
+        <div class="ty-scroller-list__item ty-scroller__item">
+            
+                        <div class="ty-scroller-list__img-block">
+                
+                <a href="http://ncode.kc/elektronika/kompyutery/planshety/nokia-n1-pad-7.9-quad-core-64bit-2.3ghz-2gb-32gb-android-5.0/">                <img class="ty-pict   lazyOwl  cm-image" alt="" title="" srcset="http://ncode.kc/images/thumbnails/320/320/detailed/1/nokia_n1_perspectives_-_app.jpg 2x" width="160" height="160" data-src="http://ncode.kc/images/thumbnails/160/160/detailed/1/nokia_n1_perspectives_-_app.jpg" />
+
+</a>
+                            </div>
+            <div class="ty-scroller-list__description">
+                            
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="ty-simple-list clearfix">
+                <form action="http://ncode.kc/" method="post" name="product_form_62000scr_62_62622eba2edf8000247" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php?s_layout=4" />
+<input type="hidden" name="product_data[scr_62_62622eba2edf8000247][product_id]" value="247" />
+
+            
+                                            
+            
+
+            <bdi>
+            <a href="http://ncode.kc/elektronika/kompyutery/planshety/nokia-n1-pad-7.9-quad-core-64bit-2.3ghz-2gb-32gb-android-5.0/" class="product-title" title="Nokia N1 Pad 7.9&quot; Quad-Core 64bit 2.3GHz 2GB 32GB Android 5.0" >Nokia N1 Pad 7.9" Quad-Core 64bit 2.3GHz 2GB 32GB Android 5.0</a>    
+
+</bdi>
+                
+                
+
+    
+
+
+
+            
+
+                                    
+
+
+
+
+            
+                            
+            
+            
+                            
+                        
+                            
+            
+
+
+
+                            
+
+                                        <div class="ty-simple-list__buttons">
+                                        <div class="cm-reload-62000scr_62_62622eba2edf8000247 " id="add_to_cart_update_62000scr_62_62622eba2edf8000247">
+<input type="hidden" name="appearance[show_add_to_cart]" value="1" />
+<input type="hidden" name="appearance[show_list_buttons]" value="" />
+<input type="hidden" name="appearance[but_role]" value="action" />
+<input type="hidden" name="appearance[quick_view]" value="" />
+
+        
+ 
+
+    <a href="http://ncode.kc/elektronika/kompyutery/planshety/nokia-n1-pad-7.9-quad-core-64bit-2.3ghz-2gb-32gb-android-5.0/"  class="ty-btn ty-btn__primary ty-btn__big " >Выберите опции</a>
+
+    
+                                                    
+                            
+
+    
+    
+
+    <a id="opener_buy_now_with_one_click_62000247"
+        class="cm-dialog-opener cm-dialog-auto-size ty-btn ty-btn__text ty-cr-product-button cm-dialog-destroy-on-close"
+        href="http://ncode.kc/index.php?dispatch=call_requests.request&amp;product_id=247&amp;obj_prefix=62000"         data-ca-target-id="content_buy_now_with_one_click_62000247"
+                data-ca-dialog-title="Горячие предложения"        data-ca-product-id="247" data-ca-dialog-purpose="call_request"
+        rel="nofollow"
+    >
+                <span >Купить в один клик</span>
+            </a>
+
+
+<div class="hidden" id="content_buy_now_with_one_click_62000247" title="Купить в один клик">
+    
+</div>
+
+                    
+
+    
+
+<!--add_to_cart_update_62000scr_62_62622eba2edf8000247--></div>
+
+
+                                        
+                </div>
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="8b1b6c5dbf93cf3c74631b02358e5749" /></form>
+
+    </div>
+
+            </div>
+            
+
+        </div>
+        
+
+            
+        <div class="ty-scroller-list__item ty-scroller__item">
+            
+                        <div class="ty-scroller-list__img-block">
+                
+                <a href="http://ncode.kc/elektronika/igrovye-pristavki/aksessuary/dualshock-4/">                <img class="ty-pict   lazyOwl  cm-image" alt="" title="" srcset="http://ncode.kc/images/thumbnails/320/320/detailed/1/1_pnxa-px.jpg 2x" width="160" height="160" data-src="http://ncode.kc/images/thumbnails/160/160/detailed/1/1_pnxa-px.jpg" />
+
+</a>
+                            </div>
+            <div class="ty-scroller-list__description">
+                            
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="ty-simple-list clearfix">
+                <form action="http://ncode.kc/" method="post" name="product_form_62000scr_62_62622eba2edf8000255" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php?s_layout=4" />
+<input type="hidden" name="product_data[scr_62_62622eba2edf8000255][product_id]" value="255" />
+
+            
+                                            
+                    <div class="ty-product-labels ty-product-labels--top-right   cm-reload-62000scr_62_62622eba2edf8000255" id="product_labels_update_62000scr_62_62622eba2edf8000255">
+                            
+                                                                            
+                    
+    <div  class="ty-product-labels__item   ty-product-labels__item--discount">
+        <div class="ty-product-labels__content">Скидка 7%</div>
+    </div>
+
+                        
+
+        
+            <!--product_labels_update_62000scr_62_62622eba2edf8000255--></div>
+            
+
+            <bdi>
+            <a href="http://ncode.kc/elektronika/igrovye-pristavki/aksessuary/dualshock-4/" class="product-title" title="Dualshock 4" >Dualshock 4</a>    
+
+</bdi>
+                
+                
+
+    
+
+
+
+            
+
+                                    
+
+
+
+
+            
+                            
+            
+            
+                            
+                        
+                            
+            
+
+
+
+                            
+
+                                        <div class="ty-simple-list__buttons">
+                                        <div class="cm-reload-62000scr_62_62622eba2edf8000255 " id="add_to_cart_update_62000scr_62_62622eba2edf8000255">
+<input type="hidden" name="appearance[show_add_to_cart]" value="1" />
+<input type="hidden" name="appearance[show_list_buttons]" value="" />
+<input type="hidden" name="appearance[but_role]" value="action" />
+<input type="hidden" name="appearance[quick_view]" value="" />
+
+
+
+                        
+ 
+    <button id="button_cart_62000scr_62_62622eba2edf8000255" class="ty-btn__primary ty-btn__big ty-btn__add-to-cart cm-form-dialog-closer ty-btn" type="submit" name="dispatch[checkout.add..scr_62_62622eba2edf8000255]" >В корзину</button>
+
+
+    
+
+
+
+    
+                
+                            
+
+    
+    
+
+    <a id="opener_buy_now_with_one_click_62000255"
+        class="cm-dialog-opener cm-dialog-auto-size ty-btn ty-btn__text ty-cr-product-button cm-dialog-destroy-on-close"
+        href="http://ncode.kc/index.php?dispatch=call_requests.request&amp;product_id=255&amp;obj_prefix=62000"         data-ca-target-id="content_buy_now_with_one_click_62000255"
+                data-ca-dialog-title="Горячие предложения"        data-ca-product-id="255" data-ca-dialog-purpose="call_request"
+        rel="nofollow"
+    >
+                <span >Купить в один клик</span>
+            </a>
+
+
+<div class="hidden" id="content_buy_now_with_one_click_62000255" title="Купить в один клик">
+    
+</div>
+
+                    
+
+    
+
+<!--add_to_cart_update_62000scr_62_62622eba2edf8000255--></div>
+
+
+                                        
+                </div>
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="8b1b6c5dbf93cf3c74631b02358e5749" /></form>
+
+    </div>
+
+            </div>
+            
+
+        </div>
+        
+
+            
+        <div class="ty-scroller-list__item ty-scroller__item">
+            
+                        <div class="ty-scroller-list__img-block">
+                
+                <a href="http://ncode.kc/multimedia/videoigry/x-box-one/titanfall/">                <img class="ty-pict   lazyOwl  cm-image" alt="" title="" srcset="http://ncode.kc/images/thumbnails/320/320/detailed/1/1009374167.jpg 2x" width="160" height="160" data-src="http://ncode.kc/images/thumbnails/160/160/detailed/1/1009374167.jpg" />
+
+</a>
+                            </div>
+            <div class="ty-scroller-list__description">
+                            
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="ty-simple-list clearfix">
+                <form action="http://ncode.kc/" method="post" name="product_form_62000scr_62_62622eba2edf8000256" enctype="multipart/form-data" class="cm-disable-empty-files  cm-ajax cm-ajax-full-render cm-ajax-status-middle ">
+<input type="hidden" name="result_ids" value="cart_status*,wish_list*,checkout*,account_info*" />
+<input type="hidden" name="redirect_url" value="index.php?s_layout=4" />
+<input type="hidden" name="product_data[scr_62_62622eba2edf8000256][product_id]" value="256" />
+
+            
+                                            
+            
+
+            <bdi>
+            <a href="http://ncode.kc/multimedia/videoigry/x-box-one/titanfall/" class="product-title" title="Titanfall" >Titanfall</a>    
+
+</bdi>
+                
+                
+
+    
+
+
+
+            
+
+                                    
+
+
+
+
+            
+                            
+            
+            
+                            
+                        
+                            
+            
+
+
+
+                            
+
+                                        <div class="ty-simple-list__buttons">
+                                        <div class="cm-reload-62000scr_62_62622eba2edf8000256 " id="add_to_cart_update_62000scr_62_62622eba2edf8000256">
+<input type="hidden" name="appearance[show_add_to_cart]" value="1" />
+<input type="hidden" name="appearance[show_list_buttons]" value="" />
+<input type="hidden" name="appearance[but_role]" value="action" />
+<input type="hidden" name="appearance[quick_view]" value="" />
+
+
+
+                        
+ 
+    <button id="button_cart_62000scr_62_62622eba2edf8000256" class="ty-btn__primary ty-btn__big ty-btn__add-to-cart cm-form-dialog-closer ty-btn" type="submit" name="dispatch[checkout.add..scr_62_62622eba2edf8000256]" >В корзину</button>
+
+
+    
+
+
+
+    
+                
+                            
+
+    
+    
+
+    <a id="opener_buy_now_with_one_click_62000256"
+        class="cm-dialog-opener cm-dialog-auto-size ty-btn ty-btn__text ty-cr-product-button cm-dialog-destroy-on-close"
+        href="http://ncode.kc/index.php?dispatch=call_requests.request&amp;product_id=256&amp;obj_prefix=62000"         data-ca-target-id="content_buy_now_with_one_click_62000256"
+                data-ca-dialog-title="Горячие предложения"        data-ca-product-id="256" data-ca-dialog-purpose="call_request"
+        rel="nofollow"
+    >
+                <span >Купить в один клик</span>
+            </a>
+
+
+<div class="hidden" id="content_buy_now_with_one_click_62000256" title="Купить в один клик">
+    
+</div>
+
+                    
+
+    
+
+<!--add_to_cart_update_62000scr_62_62622eba2edf8000256--></div>
+
+
+                                        
+                </div>
+                                        <input type="hidden" name="security_hash" class="cm-no-hide-input" value="8b1b6c5dbf93cf3c74631b02358e5749" /></form>
+
+    </div>
+
+            </div>
+            
+
+        </div>
+        
+
+    </div>
+
+
+<!-- Inline script moved to the bottom of the page -->
+
+
+</div>
+    </div>
+
+";}s:6:"expiry";i:0;}
